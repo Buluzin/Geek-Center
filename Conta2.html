@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<title> GEEK CENTER </title>
+        <link href="Estilos/Arte.css" rel="stylesheet">
+		<script src="Estilos/Janela.js"></script>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+        <header>
+            <div style="height: 160px; width: 1355px; background-color: black">
+                <table width="1355px" bgcolor="black" style="border-top: 5px solid orange;">
+				<tr>
+					<td align="center" width="300px"> <a href="Inicio.html" style="text-decoration: none;"> <font size="5" color="orange"> 
+                    <br> HOME </font> </a> </td>
+					<td align="center" width="300px"> <a href="Prod.html" style="text-decoration: none;"> <font size="5" color="orange">
+                    <br> PRODUTOS </font> </a> </td>
+                    <td align="center" width="400px"> <a href="Inicio.html" style="text-decoration: none;"> <font size="7" color="orange">
+                    <br> GEEK CENTER </font> </a> </td>
+                    <td align="center" width="300px"> <a href="Contato.html" style="text-decoration: none;"> <font size="5" color="orange"> 
+                    <br> CONTATO </font> </a> </td>
+					<td align="center" width="300px"> <a href="Conta.html" style="text-decoration: none;"> <font size="5" color="orange"> 
+					<br> CONTA </font> </a> </td>
+				</tr>
+		   </table>
+		</div>
+		 </header>
+		 <br><br><br>
+		 <table style="margin-left: 10px;">
+			<tr>
+				<td style="padding-left: 10px; padding-right: 10px; border-right: 1px solid grey;"> 
+				<a href="Conta2.html" style="text-decoration: none;"> <font size="3" color="orangered"> 
+                <br> MINHA CONTA </font> </a> </td>
+				<td style="padding-left: 10px; padding-right: 10px; border-right: 1px solid grey;"> 
+				<a href="Compras.html" style="text-decoration: none;"> <font size="3" color="orangered"> 
+				<br> MINHAS COMPRAS </font> </a> </td>
+			</tr>
+		</table>
+         <br><br>
+		 <p align="center"> <font size="5" color="orangered"> Minha Conta </font> </p>
+         <table align="center" style="border: 1px solid grey; padding: 20px;" border="0">
+            <tr>
+                <td colspan="2"> <img src="img/EU.jfif" height="100px" style="margin-right: 500px; border: 2px solid orange;"> </td>
+            </tr>
+			<tr>
+				<td style="padding-top: 20px;" colspan="2"> <font size="4"> <label for="campo-input" 
+				style="display: inline-block; margin-left: 15px;"> Nome de Usuário </label> </font> 
+				<input type="text" id="campo-input" style="display: inline-block;" value="Bulu"> </td>
+			</tr>
+			<tr>
+				<td style="padding-top: 20px; padding-left: 95px;" colspan="2"> <font size="4"> 
+				<label for="campo-input" style="display: inline-block; margin-left: 5px;"> Nome </label> </font> 
+				<input type="text" id="campo-input" style="display: inline-block;" value="Bruno Fernandes de Melo"> </td>
+			</tr>
+			<tr>
+				<td style="padding-top: 20px; padding-left: 90px; padding-bottom: 15px;" width="55px" align="right"> 
+				<font size="4"> Sexo </font> </td>
+			    <td style="padding-top: 20px; padding-right: 60px; padding-bottom: 10px;"> <div class="popup-container">
+				<input type="text" id="campo-input" value="Especificar" class="popup-link" onclick="abrirPopup()" readonly> </td>
+			</tr>
+			<div class="popup-overlay">
+				<div class="popup-content">
+				  <ul class="popup-options">
+					<li onclick="selecionarOpcao('Masculino')"> Masculino </li>
+					<li onclick="selecionarOpcao('Feminino')"> Feminino </li>
+					<li onclick="selecionarOpcao('Não Identificar')"> Não Identificar </li>
+				  </ul>
+				</div>
+			  </div>
+			  <tr>
+				<td style="padding-top: 20px; padding-left: 50px;" colspan="2"> <font size="4"> 
+				<label for="campo-input" style="display: inline-block; margin-left: 5px;"> Seu Número </label> </font> 
+				<input type="text" id="campo-input" style="display: inline-block;" value="+55 (61) 99131-4922"> </td>
+			</tr>
+			  <tr>
+				<td style="padding-top: 20px;" colspan="2"> <font size="4"> <label for="campo-input"
+				style="display: inline-block; margin-left: 5px;"> Data de nascimento </label> </font> 
+				<input type="date" id="campo-input" min="1920-01-01" max="2023-12-31" style="display: inline-block;"> </td>
+			</tr>
+		</table>
+		 <br><br><br><br><br>
+		 <table width="1345px" bgcolor="black" style="border-top: 3px solid orange;">
+		   <tr>
+			  <td align="center"> <font color="orange"> DESENVOLVIDO POR BRUNO FERNANDES DE MELO </font> </td>				
+		  </tr>
+	  </table>
+	 </body>
+ </html>

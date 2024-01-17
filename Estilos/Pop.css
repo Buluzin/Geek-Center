@@ -1,0 +1,114 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+header{
+  background-color: #000000;
+  width: 1355px;
+  height: 120px;
+  margin-left: -10px;
+}
+form{
+  font-family: verdana,tahoma,sans-serif;
+  font-size: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+label, input {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 450px;
+  padding: 5px;
+  color: black;
+  border-color: orange;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  color:black
+}
+h1{
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #66ffff;
+  text-shadow: 5px 5px 5px 5px black;
+}
+input, textarea{
+  width: 180px;
+  padding: 10px;
+  margin-left: 20px;
+  border: 2px solid;
+}
+input:hover, textarea:hover, input:focus, textarea:focus{
+  border-color: orange;
+  color: black;
+}
+form label{
+  margin-left: 20px;
+  color: #ffffff;
+}
+.enviar input{
+  background-color: #66ffff;
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+  border: 1px solid;
+  color: black;
+  border-radius: 5px;
+}
+ .popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  cursor: pointer;
+}
+
+  .popup-content {
+  position: absolute;
+  top: 180px;
+  width: 1400px;
+  left: 720px;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: auto;
+}
+.button-container {
+  display: flex;
+}  
+.button-container input[type="button"] {
+  margin-right: 10px;
+}
+#campo-input {
+  border: 1px solid grey;
+  padding: 5px;
+  font-size: 16px;
+}
+#campo-input:focus {
+  outline: none;
+}
+.radio-container {
+  display: flex;
+  align-items: center;
+}
+.radio-option {
+  display: flex;
+  align-items: justify;
+}
